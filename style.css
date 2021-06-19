@@ -101,7 +101,6 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
   text-align: center;
 
 }
@@ -149,7 +148,6 @@ header nav ul li a:hover {
 .nav-box {
     display: flex;
     flex-direction: column;
-    justify-content:
 }
 
 .container {
@@ -161,10 +159,11 @@ header nav ul li a:hover {
 }
 
 .form-item {
-  flex: 0 1 32%;
-  height: auto;
-  align-self: auto;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+/* flex: 0 1 32%; */
+flex-direction: row;
+height: auto;
+align-self: auto;
+margin-bottom: 2%; /* (100-32*3)/2 */
 }
 
 /* -------  Search Form ------- */
@@ -179,7 +178,7 @@ form label {
 
 form select,
 form input {
-  margin-bottom: 20px;
+  margin: 10px;
   width: 180px;
 }
 
@@ -274,11 +273,9 @@ footer p {
     }
 
 .form-item {
- /* flex: 0 1 32%; */
-  flex-direction: row;
-  height: auto;
-  align-self: auto;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  display: flex;
+  padding: 10px;
+ 
 }
 
 .container {
